@@ -1,6 +1,6 @@
 from setuptools import setup, find_namespace_packages
 
-setup(name = 'cocotbext-EXTNAME',
+setup(name = 'cocotbext-axis',
 	version = '0.1',
 	packages = find_namespace_packages(include=['cocotbext.*']),
 	install_requires = ['cocotb'],
