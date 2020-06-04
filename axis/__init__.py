@@ -7,7 +7,7 @@ from cocotb.binary import BinaryValue, resolve
 class AXIS_ProtocolError(Exception):
     pass
 
-class AXIS_Master(ValidatedBusDriver):
+class AXIS_Driver(ValidatedBusDriver):
     """AXI Stream Master Interface Driver"""
 
     _signals = ["tvalid"]
